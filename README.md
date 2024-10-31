@@ -9,9 +9,7 @@
 </div>
 
 <h2 align="center"> Analisis </h2> 
-## Deskripsi
-
-Proyek ini menggunakan model dari library `transformers` untuk melakukan analisis teks menggunakan dua metode utama: **Zero-Shot Classification** dan **Question Answering**. Dengan proyek ini, Anda dapat mengklasifikasikan teks ke dalam kategori yang ditentukan tanpa memerlukan data pelatihan dan menjawab pertanyaan berdasarkan konteks yang diberikan.
+Proyek ini menggunakan model dari library transformers untuk melakukan analisis teks menggunakan dua metode utama: Zero-Shot Classification dan Question Answering. Dengan proyek ini, Anda dapat mengklasifikasikan teks ke dalam kategori yang ditentukan tanpa memerlukan data pelatihan dan menjawab pertanyaan berdasarkan konteks yang diberikan.
 
 ## Fitur
 
@@ -82,15 +80,3 @@ question = "Kapan Albert Einstein lahir?"
 result = qa_pipeline(question=question, context=context)
 print(result['answer'])
 ```
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan buat pull request atau buka isu untuk diskusi.
-
-## Kontak
-
-Untuk pertanyaan lebih lanjut, silakan hubungi [email@domain.com].
